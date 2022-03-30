@@ -1,0 +1,11 @@
+<h1>Calculadora Sencilla</h1>
+<div id="cuerpo">
+        <input id="n1" type="numero" [(ngModel)]="n1" /> &nbsp;&nbsp;
+        <input id="n2" type="numero" [(ngModel)]="n2" /> 
+        <br/><br />
+        <button (click)="Suma()">Suma</button> &nbsp;
+        <button (click)="Resta()">Resta</button> &nbsp;
+        <button (click)="Multiplicacion()">Multiplicacion </button> &nbsp;
+        <button (click)="Division()" >Division</button> <br /><br />
+        Resultado: <input id="resultado" type="numero"placeholder="Resultado" value="{{resultado}}" >
+</div>
