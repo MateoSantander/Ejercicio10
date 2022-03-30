@@ -9,11 +9,38 @@ h1{
 button{
     color: rgb(76, 87, 121);
     background-color: lightblue;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
 }
 
 #cuerpo{
     text-align: center;
     background-color:aqua;
+}
+
+@media screen and (max-width: 1300px){
+    h1{
+       
+        color:rgb(83, 126, 141);
+        text-align:center;
+        font-size: 30px;
+           background-color:white;
+    }
+    
+    button{
+        color: rgb(76, 87, 121);
+        background-color: lightblue;
+        border-width: 1px;
+        border-style: solid;
+    }
+    
+    #cuerpo{
+        text-align: left;
+        background-color:aqua;
+    }
+
+    input{
+        font-size: 15px;
+        width: 80px;
+    }
 }
